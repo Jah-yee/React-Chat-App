@@ -1,9 +1,35 @@
 {
+  "name": "react-chat-app",
+  "version": "1.0.0",
+  "description": "A performance-based chat app that welcomes open source contributors of any kind.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
-    "chalk": "5.6",
-    "cross-spawn": "^7.0.3",
-    "debug": "^4.4.3",
-    "lodash": "^4.17.11",
-    "minimist": "^1.2.5"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
